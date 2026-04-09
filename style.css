@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    margin: 0;
+    padding:0;
+}
+
+.main_wheather_container {
+    max-width: 100%;
+
+    flex-direction: column;
+    background-color: white;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.wheather_header {
+    width: fit-content;
+    background: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+
+    place-content: center;
+}
+.wheather_input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.2rem;
+    font-size: 1rem;
+}
+.wheather_info
+    {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+}
+.wheather_card {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: whitesmoke;
+    border-radius: 0.8rem;
+   transition: all 0.5s;
+
+   &:hover{
+
+       box-shadow: inset 0 0 0 0.02rem gray;
+       cursor:grabbing;
+   }
+   
+}
+
+.icon_size
+
+ {
+    font-size: 1.5rem;
+}
+.wheather_body{
+    display: flex;
+    /* place-content: center; */
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.wheather_forecast{
+        background: black;
+    border-radius: 2rem;
+    color: white;
+    padding: 0.5rem;
+}
+.wheather_data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.wheather_min_max{
+    display: flex;
+    column-gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+.image_adjust{
+    height: 15vh;
+}

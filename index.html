@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="main_wheather_container">
+
+
+        <!-- search icon -->
+        <div class="wheather_header">
+            <form class="wheather_search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="wheather" id="wheather" placeholder="enter your city .."
+                    class="wheather_input" />
+            </form>
+        </div>
+
+        <!-- wheather main data  -->
+
+        <div class="wheather_body">
+            <h1 class="wheather_city"></h1>
+            <p class="wheather_date_time"></p>
+            <div class="wheather_data">
+
+                <p class="wheather_forecast"></p>
+                <div class="wheather_icon"></div>
+            </div>
+            <p class="wheather_temp"></p>
+            <div class="wheather_min_max">
+                <p class="wheather_min"></p>
+                <p class="wheather_max"></p>
+            </div>
+        </div>
+
+
+
+        <!-- wheather extra data  -->
+        <div class="wheather_info">
+            <div class="wheather_card">
+                <!-- icon -->
+                <i class="fa-solid fa-temperature-half icon_size"></i>
+                <div class="card_detail">
+                    <p></p>
+                    <p class="wheather_feels_like">156&#176</p>
+                </div>
+            </div>
+
+
+
+            <div class="wheather_card">
+                <!-- icon -->
+                <i class="fa-solid fa-droplet icon_size"></i>
+                <div class="card_detail">
+                    <p></p>
+                    <p class="wheather_humidity">156&#176</p>
+                </div>
+            </div>
+
+
+
+            <div class="wheather_card">
+                <!-- icon -->
+                <i class="fa-solid fa-wind icon_size"></i>
+                <div class="card_detail">
+                    <p></p>
+                    <p class="wheather_wind">156&#176</p>
+                </div>
+            </div>
+
+
+            <div class="wheather_card">
+                <!-- icon -->
+                <i class="fa-solid fa-gauge-high icon_size"></i>
+                <div class="card_detail">
+                    <p></p>
+                    <p class="wheather_pressure">156&#176</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
